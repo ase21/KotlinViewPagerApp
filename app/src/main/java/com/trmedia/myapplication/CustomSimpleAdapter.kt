@@ -9,6 +9,7 @@ class CustomSimpleAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     private var fragments : ArrayList<Fragment> = ArrayList()
     private var labels: ArrayList<String> = ArrayList()
 
+
     fun addFragment(fragment: Fragment, label: String){
         fragments.add(fragment)
         labels.add(label)
